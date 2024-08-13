@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" herf="style.css">
+    <style>
+        h1{
+            background-color: red;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <h1><center> Student Buss Pass Aplication Upto SSC</center></h1>
+    <form action="register.html"method="post">
+    <fieldset>
+        <legend style="color: darkorchid;"><h2>1. Student Details</h2></legend>
+        <label for="pass">1.Name*</label>
+        <input type="text" value=""id="name"placeholder="enter your name">
+        <label for="pass">1.2 Father's/Guardian's Name*</label>
+        <input type="text"value=""id="name"><br>
+
+        <label for="pass"> Date of Birth*</label>
+        <input type="dob"value=""id="dob"placeholder="dd/mm/yyyy">
+        <label for="pass">1.4 Gender*</label>
+        <input type="radio"name="gender"value="male">male
+        <input type="radio"name="gender"value="female">female<br>
+        <label for="pass">Age As On:</label>
+        <input type="datetime-local"name="age"id="age"placeholder="dd-mm-yyyy">
+        <label for="pass">1.5 AAdher No:</label>
+        <input type="aadher"id="aadher"><br>
+        </dd>
+        <label for="pass">1.6 Mobile No* </label>
+        <input type="m no"id="m no">
+        <label for="pass">1.7 Is Employee Children</label>
+        <input type="radio" value="yes">yes
+        <input type="radio"value="no">no<br>
+        <label for="pass">1.8 Email</label>
+        <input type="mail"id="mail"><br>
+        <label for="pass">1.9 Photo*</label>
+        <button><input type="file"value="photo"id="photo"></button><br>
+        </fieldset>
+        <fieldset>
+            <legend style="color: deeppink;"><h2>2.Residential Address Details</h2></legend>
+                <label for="pass">2.1 District* </label>
+               <button> <select id="select" name="select" required>
+                    <option value="">Select</option>
+                    <option value="district1">kakinada</option>
+                    <option value="district3" selected>hyderbed</option>
+                    <option value="district4" disabled>vizag</option>
+                </select></button>
+                <label for="pass">2.2 Mandal* </label>
+                <button> <select id="mandal" name="mandal" required>
+                     <option value="">Select</option>
+                     <option value="">kakinada</option>
+                     <option value="" >hyderbed</option>
+                 </select></button><br>
+                 <label for="pass">2.3 Village* </label>
+                 <button> <select id="village" name="village" required>
+                      <option value="">Select</option>
+                      <option value="">kakinada</option>
+                      <option value="" >hyderbed</option>
+                      <option value="" >vizag</option>
+                  </select></button>
+                  <label for="pass">2.4 Address*</label>
+                  <textarea id ="comment"name="comment"rows="4"cols="50"maxlength="50"></textarea><br>
+                  <label for="pass">2.5 Postal Code*</label>
+                  <input type="PC"id="PC"> 
+        </fieldset>
+        <fieldset>
+            <legend style="color: mediumblue;"><h2>3.School Details</h2></legend>
+            <label for="pass">3.1 District*</label>
+            <button> <select id="select" name="select" required>
+                <option value="">Select</option>
+                <option value="">kakinada</option>
+                <option value="" selected>hyderbed</option>
+                <option value="" disabled>vizag</option>
+            </select></button>
+            <lebel>3.2 Mandal*</lebel>
+            <button> <select id="select" name="select" required>
+                <option value="">Select</option>
+                <option value="district1">kakinada</option>
+                <option value="district3" selected>hyderbed</option>
+                <option value="district4" disabled>vizag</option>
+            </select></button><br>
+            <lebel>3.3 School Name*</lebel>
+            <button> <select id="select" name="select" required>
+                <option value="">Select</option>
+                <option value="">kakinada</option>
+                <option value="" selected>hyderbed</option>
+                <option value="" disabled>vizag</option>
+            </select></button>
+            <lebel> 3.4 Class</lebel>
+            <button> <select id="select" name="select" required>
+                <option value="">Select</option>
+                <option value="">chaithanya</option>
+                <option value="" >kits</option>
+                <option value="" >adhitya</option>
+            </select></button><br>
+            <lebel>3.5 Admission No*</lebel>
+            <input type="text"value=""id="text"><br>
+            <legend>3.6 School Address</legend>
+            <textarea id ="comment"name="comment"rows="4"cols="50"maxlength="50"></textarea><br>
+        </fieldset>
+        <fieldset>
+            <legend style="color: maroon;"><h2>4 Mode of Payment</h2></legend>
+            <lebel>Payment Mode*</lebel>
+            <button> <select id="select payment mode" name="select payment mode" required>
+                <option value="">Select</option>
+                <option value="">cash</option>
+                <option value="" >phone pay</option>
+                <option value="" >paytm</option>
+            </select></button><br>
+
+        </fieldset>
+       <center> <input style="color: deeppink"type="submit"value="submit"><br>
+        <p><button><a href="./index.html"></a></button></p></center>
+
+        
+
+
+
+    
+</body>
+</html>
